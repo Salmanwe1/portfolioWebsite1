@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -49,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a SaaS Web App",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,35 +74,35 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Digital Business Website",
+    des: "Discover cutting-edge digital business website built with Next.js, featuring sleek design, dynamic animations, and smooth scrolling for an immersive user experience.",
+    img: "/digitalBusiness.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://digital-business-app.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "Real Estate Website",
+    des: "Discover your dream home on our cutting-edge real estate platform. Built with modern web technologies, it offers a sleek, secure, and user-friendly experience for seamless property browsing and transactions",
+    img: "/RealEstate.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://real-estate-mern-frontend.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "Ecommerce Website",
+    des: "Experience the ultimate online bicycle shopping with our advanced e-commerce platform. Designed for speed and ease, it combines modern web technologies to deliver a seamless, secure, and enjoyable shopping experience.",
+    img: "/VelocityHub.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://e-commerce-website-brown.vercel.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "Blog Website",
+    des: "Immerse yourself in a seamless reading experience with our sleek, SEO-optimized blog platform. Built with the latest tech, it delivers fast, engaging content with a modern, responsive design.",
+    img: "/Blog.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://blog-website-pi-self.vercel.app/",
   },
 ];
 
@@ -180,7 +182,7 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
+    title: "MERN Stack - Stallyons Tech",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
@@ -205,13 +207,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Baasir-stack",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://twitter.com/Baasir_stack",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/syed-baasir-ashraf-61956820a/",
   },
 ];

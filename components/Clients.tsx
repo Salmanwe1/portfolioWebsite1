@@ -7,7 +7,8 @@ import { InfiniteMovingCards } from "./ui/InfiniteCards";
 
 const Clients = () => {
   return (
-    <section id="testimonials" className="py-20">
+    // removed this section for temporary purposes.
+    <section id="testimonials" className="py-20 hidden">
       <h1 className="heading">
         Kind words from
         <span className="text-purple"> satisfied clients</span>
